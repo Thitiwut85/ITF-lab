@@ -22,7 +22,7 @@
 	</style>
 </head>
 <body class="bg-secondary py-5">
-	<div class="container p-3 my-3 bg-dark text-dark">
+	<div class="container p-3 my-3 bg-dark text-success">
 		<div class="row">
 			<div class="col-12 col-lg-8 offset-lg-2">
 				<div class="card shadow">
