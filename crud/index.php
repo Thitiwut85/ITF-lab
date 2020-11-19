@@ -11,7 +11,7 @@
 	</style>
 </head>
 <body class="bg-secondary py-5">
-	<div class="container p-3 my-3 bg-dark text-white">
+	<div class="container p-3 my-3 bg-dark">
 		<div class="row">
 			<div class="col-12 col-lg-8 offset-lg-2">
 				<div class="card shadow">
@@ -33,10 +33,10 @@
 							<table class="table table-borderless table-hover">
 								<thead>
 									<tr>
-										<th width="150px">Action</th>
 										<th>Name</th>
 										<th>Comment</th>
 										<th>Link</th>
+										<th width="150px">Action</th>
 									</tr>
 								</thead>
 								<tbody>
