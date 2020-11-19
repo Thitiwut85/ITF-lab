@@ -29,7 +29,7 @@
 						<h2 align="center">
 						<?php
 							if(mysqli_query($conn, $sql)) {
-								echo "EDIT COMPLETED";
+								echo "SUCCESS";
 							}
 							else {
 								echo "FAILED";
