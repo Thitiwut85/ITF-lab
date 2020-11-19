@@ -31,7 +31,7 @@
 								$res = mysqli_query($conn, 'SELECT * FROM guestbook');
 							?>
 							<table class="table table-active table-hover">
-								<thead>
+								<thead class="thead-dark">
 									<tr>
 										<th>Name</th>
 										<th>Comment</th>
