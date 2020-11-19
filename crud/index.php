@@ -30,7 +30,7 @@
 								}
 								$res = mysqli_query($conn, 'SELECT * FROM guestbook');
 							?>
-							<table class="table table-secondary table-hover">
+							<table class="table table-active table-hover">
 								<thead>
 									<tr>
 										<th>Name</th>
