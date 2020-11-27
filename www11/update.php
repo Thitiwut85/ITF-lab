@@ -7,7 +7,7 @@
     	$total = $price-(($discount/100)*$price);
     	$id = $_POST['id'];
 
-	$sql = 'UPDATE guestbook2 SET Product = "'.$product.'", Price = "'.$price.'", Discount = "'.$discount.'", Total = "'.$total.'" WHERE ID = '.$id.'';
+	$sql = 'UPDATE guestbook2 SET Price = "'.$price.'", Discount = "'.$discount.'", Total = "'.$total.'" WHERE ID = '.$id.'';
 ?>
 <!DOCTYPE html>
 <html>
