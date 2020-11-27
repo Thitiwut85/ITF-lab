@@ -48,10 +48,6 @@
 								<label>ส่วนลด(%)</label>
 								<input type="number" name="discount" value="<?php echo $data['Discount']; ?>" class="form-control" required>
 							</div>
-                            <div class="form-group">
-								<label>ราคาหลังลด</label>
-								<input type="number" name="total" value="<?php echo $data['Total']; ?>" class="form-control">
-							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-sm btn-success my-3 font-weight-bold">SAVE</button>
 								<a class="btn btn-sm btn-light my-3" href="index.php">CANCEL</a>
