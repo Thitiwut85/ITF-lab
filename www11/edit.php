@@ -36,7 +36,6 @@
 						</div>
 						<form action="update.php" method="post">
 							<input type="text" name="id" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
-							
 							<div class="form-group">
 								<label>ราคาหน่วย</label>
 								<input type="number" name="price" value="<?php echo $data['Price']; ?>" class="form-control" required>
@@ -45,7 +44,6 @@
 								<label>ส่วนลด(%)</label>
 								<input type="number" name="discount" value="<?php echo $data['Discount']; ?>" class="form-control" required>
 							</div>
-							
 							<div class="text-center">
 								<button type="submit" class="btn btn-sm btn-success my-3 font-weight-bold">SAVE</button>
 								<a class="btn btn-sm btn-light my-3" href="index.php">CANCEL</a>
