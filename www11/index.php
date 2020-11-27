@@ -18,7 +18,7 @@
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
-							<div class="col-6"><h1 class="text-Sans-serif">Collect data</h1></div>
+							<div class="col-6"><h1 class="text-Sans-serif">คำนวณราคาหลังลด</h1></div>
 							<div class="col-6 text-right"><a href="form.php" class="btn btn-info btn-sm font-weight-bold">ADD</a></div>
 						</div>
 						<div class="table-responsive">
