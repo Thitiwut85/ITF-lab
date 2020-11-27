@@ -37,10 +37,6 @@
 						<form action="update.php" method="post">
 							<input type="text" name="id" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
 							<div class="form-group">
-								<label>ชื่อสินค้า</label>
-								<input type="text" name="product" value="<?php echo $data['Product']; ?>" class="form-control">
-							</div>
-							<div class="form-group">
 								<label>ราคาหน่วย</label>
 								<input type="number" name="price" value="<?php echo $data['Price']; ?>" class="form-control" required>
 							</div>
