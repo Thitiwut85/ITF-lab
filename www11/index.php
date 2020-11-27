@@ -37,7 +37,7 @@
 										<th>ชื่อสินค้า</th>
 										<th>ราคาหน่วย</th>
 										<th>ส่วนลด(%)</th>
-                                        <th>ราคาหลังลด</th>
+                                        					<th>ราคาหลังลด</th>
 										<th width="150px">Action</th>
 									</tr>
 								</thead>
@@ -49,7 +49,7 @@
 										<td><?php echo $Result['Product'];?></td>
 										<td><?php echo $Result['Price'];?></td>
 										<td><?php echo $Result['Discount'];?></td>
-                                        <td><?php echo $Result['Total'];?></td>
+                                        					<td><?php echo $Result['Total'];?></td>
 										<td><a href="edit.php?ID=<?php echo $Result['ID'];?>" class="btn btn-sm btn-dark">EDIT</a></td>
 									</tr>
 									<?php
